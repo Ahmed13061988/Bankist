@@ -44,3 +44,6 @@ console.log(allSections); // node list
 
 const section1 = document.getElementById('section--1');
 console.log(section1);
+
+const allButtons = document.getElementsByTagName('button'); // return html collection
+console.log(allButtons);
