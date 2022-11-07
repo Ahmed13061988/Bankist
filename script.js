@@ -33,6 +33,11 @@ document.addEventListener('keydown', function (e) {
   }
 });
 /////////
-console.log(document.documentElement);
-console.log(document.head);
-console.log(document.body);
+// console.log(document.documentElement);
+// console.log(document.head);
+// console.log(document.body);
+
+const header = document.querySelector('.header');
+const allSections = document.querySelectorAll('.section'); // this will return node list
+
+console.log(allSections);
