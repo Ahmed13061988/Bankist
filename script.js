@@ -40,10 +40,12 @@ document.addEventListener('keydown', function (e) {
 const header = document.querySelector('.header');
 const allSections = document.querySelectorAll('.section'); // this will return node list
 
-console.log(allSections); // node list
+// console.log(allSections); // node list
 
 const section1 = document.getElementById('section--1');
-console.log(section1);
+// console.log(section1);
 
 const allButtons = document.getElementsByTagName('button'); // return html collection
-console.log(allButtons);
+// console.log(allButtons);
+
+console.log(document.getElementsByClassName('btn')); // return html collection
