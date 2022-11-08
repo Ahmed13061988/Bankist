@@ -48,4 +48,8 @@ const section1 = document.getElementById('section--1');
 const allButtons = document.getElementsByTagName('button'); // return html collection
 // console.log(allButtons);
 
-console.log(document.getElementsByClassName('btn')); // return html collection
+//console.log(document.getElementsByClassName('btn')); // return html collection
+
+//Creating and inserting elements
+//.insertAdjacentHtml
+const message = document.createElement('div'); // this one will create a DOM element
