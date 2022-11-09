@@ -75,4 +75,5 @@ document
 message.style.backgroundColor = '#37383d'; // inline styles
 message.style.width = '120%'; // inline styles
 console.log(message.style.backgroundColor);
-console.log(getComputedStyle(message));
+console.log(getComputedStyle(message).color);
+console.log(getComputedStyle(message).height);
