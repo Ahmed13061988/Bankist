@@ -77,3 +77,6 @@ message.style.width = '120%'; // inline styles
 console.log(message.style.backgroundColor);
 console.log(getComputedStyle(message).color);
 console.log(getComputedStyle(message).height);
+
+message.style.height =
+  Number.parseFloat(getComputedStyle.height, 10) + 40 + 'px';
