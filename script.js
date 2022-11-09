@@ -53,3 +53,4 @@ const allButtons = document.getElementsByTagName('button'); // return html colle
 //Creating and inserting elements
 //.insertAdjacentHtml
 const message = document.createElement('div'); // this one will create a DOM element
+message.classList.add('cookie-message');
