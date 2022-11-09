@@ -70,3 +70,6 @@ document
     //message.remove(); // new way
     message.parentElement.removeChild(message); // old way
   });
+
+//Styles
+message.style.backgroundColor = 'blue';
