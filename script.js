@@ -57,3 +57,5 @@ message.classList.add('cookie-message');
 message.textContent = 'We use cookies for improve functionality and analytics.';
 message.innerHTML =
   'We use cookies for improve functionality and analytics. <button class = "btn btn--close-cookie">Got it!</button>';
+
+header.prepend(message);
