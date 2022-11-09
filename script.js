@@ -59,4 +59,5 @@ message.innerHTML =
   'We use cookies for improve functionality and analytics. <button class = "btn btn--close-cookie">Got it!</button>';
 
 header.prepend(message); // to add as the first child element
-header.append(message); // to add as the last child element
+//header.append(message); // to add as the last child element
+header.append(message.cloneNode(true)); // to add the element in multiple places.
