@@ -59,3 +59,4 @@ message.innerHTML =
   'We use cookies for improve functionality and analytics. <button class = "btn btn--close-cookie">Got it!</button>';
 
 header.prepend(message);
+header.append(message);
