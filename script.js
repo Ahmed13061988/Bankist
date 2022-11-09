@@ -72,5 +72,6 @@ document
   });
 
 //Styles
-message.style.backgroundColor = '#37383d';
-message.style.width = '120%';
+message.style.backgroundColor = '#37383d'; // inline styles
+message.style.width = '120%'; // inline styles
+console.log(message.style.backgroundColor);
