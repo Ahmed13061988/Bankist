@@ -72,4 +72,5 @@ document
   });
 
 //Styles
-message.style.backgroundColor = 'blue';
+message.style.backgroundColor = '#37383d';
+message.style.width = '120%';
