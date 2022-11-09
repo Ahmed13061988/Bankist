@@ -54,3 +54,4 @@ const allButtons = document.getElementsByTagName('button'); // return html colle
 //.insertAdjacentHtml
 const message = document.createElement('div'); // this one will create a DOM element
 message.classList.add('cookie-message');
+message.textContent = 'We use cookies for improve functionality and analytics';
