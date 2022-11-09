@@ -67,5 +67,6 @@ header.after(message);
 document
   .querySelector('.btn--close-cookie')
   .addEventListener('click', function () {
-    message.remove();
+    //message.remove(); // new way
+    message.parentElement.removeChild(message); // old way
   });
