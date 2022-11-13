@@ -91,4 +91,5 @@ logo.alt = 'Beautiful minimalist logo';
 console.log(logo.src);
 console.log(logo.alt);
 console.log(logo.className);
-console.log(logo.setAttribute('designer')); // this will set the attributes
+console.log(logo.getAttribute('designer')); // this will set the attributes
+logo.setAttribute('company', 'Bankist');
