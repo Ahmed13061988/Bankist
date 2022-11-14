@@ -94,3 +94,6 @@ console.log(logo.className);
 console.log(logo.getAttribute('designer')); // this will set the attributes
 logo.setAttribute('company', 'Bankist');
 console.log(logo.getAttribute('src'));
+
+const twitterLink = document.querySelector('.twitter-link');
+console.log(twitterLink.getAttribute('href'));
