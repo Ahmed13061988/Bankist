@@ -101,3 +101,9 @@ console.log(link.href); // this will bring absolute path
 
 //Data attributes
 console.log(logo.dataset.versionNumber);
+
+//Classes
+logo.classList.add();
+logo.classList.remove();
+logo.classList.toggle();
+logo.classList.contains();
