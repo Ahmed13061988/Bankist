@@ -95,5 +95,6 @@ console.log(logo.getAttribute('designer')); // this will set the attributes
 logo.setAttribute('company', 'Bankist');
 console.log(logo.getAttribute('src'));
 
-const twitterLink = document.querySelector('.twitter-link');
-console.log(twitterLink.getAttribute('href'));
+const link = document.querySelector('.nav__link--btn');
+console.log(link.getAttribute('href')); // this will get relative path
+console.log(link.href); // this will bring absolute path
