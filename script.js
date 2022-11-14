@@ -98,3 +98,6 @@ console.log(logo.getAttribute('src'));
 const link = document.querySelector('.nav__link--btn');
 console.log(link.getAttribute('href')); // this will get relative path
 console.log(link.href); // this will bring absolute path
+
+//Data attributes
+console.log(logo.dataset.versionNumber);
