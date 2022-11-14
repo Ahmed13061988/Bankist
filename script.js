@@ -107,3 +107,6 @@ logo.classList.add('c', 'j');
 logo.classList.remove('c');
 logo.classList.toggle('c');
 logo.classList.contains('c');
+
+//don't use, because it will overwrite whatever already there
+logo.className = 'Ahmed';
