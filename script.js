@@ -103,7 +103,7 @@ console.log(link.href); // this will bring absolute path
 console.log(logo.dataset.versionNumber);
 
 //Classes
-logo.classList.add();
-logo.classList.remove();
-logo.classList.toggle();
-logo.classList.contains();
+logo.classList.add('c', 'j');
+logo.classList.remove('c');
+logo.classList.toggle('c');
+logo.classList.contains('c');
