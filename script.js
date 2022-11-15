@@ -103,10 +103,12 @@ const link = document.querySelector('.nav__link--btn');
 //console.log(logo.dataset.versionNumber);
 
 //Classes
-logo.classList.add('c', 'j');
-logo.classList.remove('c');
-logo.classList.toggle('c');
-logo.classList.contains('c');
+// logo.classList.add('c', 'j');
+// logo.classList.remove('c');
+// logo.classList.toggle('c');
+// logo.classList.contains('c');
 
 //don't use, because it will overwrite whatever already there
-logo.className = 'Ahmed';
+//logo.className = 'Ahmed';
+
+const btnScroll = document.querySelector('btn--scroll-to');
