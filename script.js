@@ -115,6 +115,7 @@ const btnScrollTo = document.querySelector('.btn--scroll-to');
 
 btnScrollTo.addEventListener('click', function (e) {
   e.preventDefault();
-  const s1coords = section1.getBoundingClientRect();
+  const s1coords = section1.getBoundingClientRect(); // getting the location of the section
   console.log(s1coords);
+  console.log(e.target.getBoundingClientRect());
 });
