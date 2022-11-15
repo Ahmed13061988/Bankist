@@ -88,19 +88,19 @@ message.style.height =
 const logo = document.querySelector('.nav__logo');
 
 logo.alt = 'Beautiful minimalist logo';
-console.log(logo.src);
-console.log(logo.alt);
-console.log(logo.className);
-console.log(logo.getAttribute('designer')); // this will set the attributes
+//console.log(logo.src);
+//console.log(logo.alt);
+//console.log(logo.className);
+//console.log(logo.getAttribute('designer')); // this will set the attributes
 logo.setAttribute('company', 'Bankist');
-console.log(logo.getAttribute('src'));
+//console.log(logo.getAttribute('src'));
 
 const link = document.querySelector('.nav__link--btn');
-console.log(link.getAttribute('href')); // this will get relative path
-console.log(link.href); // this will bring absolute path
+//console.log(link.getAttribute('href')); // this will get relative path
+//console.log(link.href); // this will bring absolute path
 
 //Data attributes
-console.log(logo.dataset.versionNumber);
+//console.log(logo.dataset.versionNumber);
 
 //Classes
 logo.classList.add('c', 'j');
