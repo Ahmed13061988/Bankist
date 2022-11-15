@@ -111,6 +111,10 @@ const link = document.querySelector('.nav__link--btn');
 //don't use, because it will overwrite whatever already there
 //logo.className = 'Ahmed';
 
-const btnScrollTo = document.querySelector('btn--scroll-to');
+const btnScrollTo = document.querySelector('.btn--scroll-to');
 
-btnScrollTo.addEventListener('click', function () {});
+btnScrollTo.addEventListener('click', function (e) {
+  e.preventDefault();
+  const s1coords = section1.getBoundingClientRect();
+  console.log(s1coords);
+});
