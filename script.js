@@ -124,4 +124,6 @@ btnScrollTo.addEventListener('click', function (e) {
     document.documentElement.clientHeight,
     document.documentElement.clientWidth
   );
+  //Scrolling
+  window.scrollTo(s1coords);
 });
