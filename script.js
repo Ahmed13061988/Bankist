@@ -118,4 +118,5 @@ btnScrollTo.addEventListener('click', function (e) {
   const s1coords = section1.getBoundingClientRect(); // getting the location of the section
   console.log(s1coords);
   console.log(e.target.getBoundingClientRect());
+  console.log('Current scroll(X/Y)', window.pageXOffset, window.pageYOffset); // getting the scroll position
 });
