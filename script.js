@@ -147,4 +147,4 @@ const h1 = document.querySelector('h1');
 
 h1.onmouseenter = function (e) {
   alert('addEventListenner: Your reading the heading');
-};
+}; // this one is the old way
