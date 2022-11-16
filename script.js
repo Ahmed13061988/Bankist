@@ -143,10 +143,11 @@ const h1 = document.querySelector('h1');
 
 const alertH1 = function (e) {
   alert('addEventListenner: Your reading the heading');
-  h1.removeEventListener('mouseenter', alertH1);
 };
 
 h1.addEventListener('mouseenter', alertH1); // Mouse hover
+
+setTimeout(() => h1.removeEventListener('mouseenter', alertH1), 3000);
 
 // h1.onmouseenter = function (e) {
 //   alert('addEventListenner: Your reading the heading');
