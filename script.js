@@ -141,10 +141,13 @@ btnScrollTo.addEventListener('click', function (e) {
 
 const h1 = document.querySelector('h1');
 
-// h1.addEventListener('mouseenter', function (e) {
-//   alert('addEventListenner: Your reading the heading');
-// }); // Mouse hover
-
-h1.onmouseenter = function (e) {
+const alertH1 = function (e) {
   alert('addEventListenner: Your reading the heading');
-}; // this one is the old way
+  h1.removeEventListener('mouseenter', alertH1);
+};
+
+h1.addEventListener('mouseenter', alertH1); // Mouse hover
+
+// h1.onmouseenter = function (e) {
+//   alert('addEventListenner: Your reading the heading');
+// }; // this one is the old way
