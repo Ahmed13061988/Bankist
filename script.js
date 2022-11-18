@@ -154,3 +154,4 @@ setTimeout(() => h1.removeEventListener('mouseenter', alertH1), 3000);
 // }; // this one is the old way
 
 //Event handler two types Bubbling and Capturing
+//Capturing event will triger the parent element before reaching the element it self ( for example if the button inside a <p> and the it's inside <section></section> and the section inside <div></div> and the div inside a <body></body>) the first element will be trigered is the body then the div then the section then the p and the last thing will be trigered will be the button.
