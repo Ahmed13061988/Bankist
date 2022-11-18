@@ -157,3 +157,4 @@ setTimeout(() => h1.removeEventListener('mouseenter', alertH1), 3000);
 //Capturing event will triger the parent element before reaching the element it self ( for example if the button inside a <p> and the it's inside <section></section> and the section inside <div></div> and the div inside a <body></body>) the first element will be trigered is the body then the div then the section then the p and the last thing will be trigered will be the button.
 //Capturing phase will start at the body element and the target phase will start at the button element
 //Bubbling phase it the phase when the target phase is finished, then the event will travel from the child element to the parent element.
+//Almost all the element have the three phases
