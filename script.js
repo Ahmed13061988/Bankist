@@ -152,3 +152,5 @@ setTimeout(() => h1.removeEventListener('mouseenter', alertH1), 3000);
 // h1.onmouseenter = function (e) {
 //   alert('addEventListenner: Your reading the heading');
 // }; // this one is the old way
+
+//Event handler two types Bubbling and Capturing
