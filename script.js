@@ -159,3 +159,4 @@ setTimeout(() => h1.removeEventListener('mouseenter', alertH1), 3000);
 //Bubbling phase it the phase when the target phase is finished, then the event will travel from the child element to the parent element.
 //Almost all the element have the three phases
 //did
+//Next we will use these events on the project
