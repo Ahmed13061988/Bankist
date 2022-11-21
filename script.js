@@ -160,3 +160,7 @@ setTimeout(() => h1.removeEventListener('mouseenter', alertH1), 3000);
 //Almost all the element have the three phases
 //did
 //Next we will use these events on the project
+
+//rgb(255, 255, 255);
+const randomInt = (min, max) =>
+  Math.floor(Math.random() * (max - min + 1) + min);
