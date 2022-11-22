@@ -172,3 +172,8 @@ const randomColor = () =>
 
 const navLink = document.querySelector('.nav__link');
 const navLinks = document.querySelector('.nav__links');
+
+navLink.addEventListener('click', function (e) {
+  e, preventDefault();
+  console.log('LINK');
+});
