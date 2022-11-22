@@ -176,18 +176,17 @@ const nav = document.querySelector('.nav');
 
 navLink.addEventListener('click', function (e) {
   e.preventDefault();
-  console.log('LINK');
   this.style.backgroundColor = randomColor();
 });
 
 navLinks.addEventListener('click', function (e) {
   e.preventDefault();
-  console.log('LINKS');
   this.style.backgroundColor = randomColor();
 });
 
 nav.addEventListener('click', function (e) {
   e.preventDefault();
-  console.log('NAV');
   this.style.backgroundColor = randomColor();
 });
+
+//When we click on navLink the navLinks and Nav will triger the click event and this is the bubbling effect
