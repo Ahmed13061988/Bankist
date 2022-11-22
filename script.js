@@ -183,9 +183,11 @@ navLink.addEventListener('click', function (e) {
 navLinks.addEventListener('click', function (e) {
   e.preventDefault();
   console.log('LINKS');
+  this.style.backgroundColor = randomColor();
 });
 
 nav.addEventListener('click', function (e) {
   e.preventDefault();
   console.log('NAV');
+  this.style.backgroundColor = randomColor();
 });
