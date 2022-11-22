@@ -168,4 +168,7 @@ const randomInt = (min, max) =>
 const randomColor = () =>
   `rgb(${randomInt(0, 255)}, ${randomInt(0, 255)}, ${randomInt(0, 255)})`;
 
-console.log(randomColor(0, 255));
+// console.log(randomColor(0, 255));
+
+const navLink = document.querySelector('.nav__link');
+const navLinks = document.querySelector('.nav__links');
