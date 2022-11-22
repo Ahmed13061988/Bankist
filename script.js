@@ -177,6 +177,7 @@ const nav = document.querySelector('.nav');
 navLink.addEventListener('click', function (e) {
   e.preventDefault();
   console.log('LINK');
+  this.style.backgroundColor = randomColor();
 });
 
 navLinks.addEventListener('click', function (e) {
