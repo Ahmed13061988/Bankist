@@ -178,6 +178,8 @@ navLink.addEventListener('click', function (e) {
   e.preventDefault();
   this.style.backgroundColor = randomColor();
   console.log('LINK', e.target, e.currentTarget); // e.target will be nav__link, because of the bubbling effect
+  //Stop propogation
+  e.stopPropagation();
 });
 
 navLinks.addEventListener('click', function (e) {
