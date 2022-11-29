@@ -188,12 +188,15 @@ navLinks.addEventListener('click', function (e) {
   console.log('LINKS', e.target, e.currentTarget); // will be nav__link, because of the bubbling effect
   console.log(e.currentTarget === this);
   //Stop propogation
+  e.stopPropagation();
 });
 
 nav.addEventListener('click', function (e) {
   e.preventDefault();
   this.style.backgroundColor = randomColor();
   console.log('NAV', e.target, e.currentTarget); // e.target will be nav_link, because of the bubbling effect
+  //Stop propogation
+  e.stopPropagation();
 });
 
 //When we click on navLink the navLinks and Nav will triger the click event and this is the bubbling effect
