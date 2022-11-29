@@ -190,8 +190,3 @@ nav.addEventListener('click', function (e) {
 });
 
 //When we click on navLink the navLinks and Nav will triger the click event and this is the bubbling effect
-
-console.log('------------');
-const fn = () => ({ x: 1, y: 1, a: 3, b: 4 });
-const { x: a, y: b } = fn();
-console.log(x, y);
