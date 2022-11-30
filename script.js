@@ -72,7 +72,6 @@ btnScrollTo.addEventListener('click', function (e) {
 
 document.querySelectorAll('.nav__link').forEach(function (el) {
   el.addEventListener('click', function (e) {
-    console.log(e, 'LINK');
     e.preventDefault();
   });
 }); // return nodelist
