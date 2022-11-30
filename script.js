@@ -70,6 +70,10 @@ btnScrollTo.addEventListener('click', function (e) {
   section1.scrollIntoView({ behavior: 'smooth' });
 });
 
+document.querySelectorAll('.nav__link').forEach(function (el) {
+  el.addEventListener('click', function () {});
+}); // return nodelist
+
 /////////
 // console.log(document.documentElement);
 // console.log(document.head);
