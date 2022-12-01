@@ -10,6 +10,8 @@ const btnsOpenModal = document.querySelectorAll('.btn--show-modal');
 const section1 = document.getElementById('section--1');
 const btnScrollTo = document.querySelector('.btn--scroll-to');
 const allButtons = document.getElementsByTagName('button');
+const header = document.querySelector('.header');
+const allSections = document.querySelectorAll('.section'); // this will return node list
 
 const openModal = function (e) {
   e.preventDefault();
@@ -37,8 +39,6 @@ document.addEventListener('keydown', function (e) {
 });
 
 //Page Navigation
-const header = document.querySelector('.header');
-const allSections = document.querySelectorAll('.section'); // this will return node list
 
 // console.log(allSections); // node list
 
