@@ -97,6 +97,8 @@ navLinks.addEventListener('click', function (e) {
 const h1 = document.querySelector('h1');
 //Going downwards: child
 console.log(h1.querySelectorAll('.highlight'));
+console.log(h1.childNodes);
+console.log(h1.children); // html collection
 
 /////////
 // console.log(document.documentElement);
