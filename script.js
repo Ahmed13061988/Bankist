@@ -32,6 +32,8 @@ document.addEventListener('keydown', function (e) {
     closeModal();
   }
 });
+
+//Page Navigation
 /////////
 // console.log(document.documentElement);
 // console.log(document.head);
@@ -191,16 +193,12 @@ navLinks.addEventListener('click', function (e) {
   //e.stopPropagation();
 });
 
-nav.addEventListener(
-  'click',
-  function (e) {
-    e.preventDefault();
-    this.style.backgroundColor = randomColor();
-    console.log('NAV', e.target, e.currentTarget); // e.target will be nav_link, because of the bubbling effect
-    //Stop propogation
-    //e.stopPropagation();
-  },
-  true
-);
+nav.addEventListener('click', function (e) {
+  e.preventDefault();
+  this.style.backgroundColor = randomColor();
+  console.log('NAV', e.target, e.currentTarget); // e.target will be nav_link, because of the bubbling effect
+  //Stop propogation
+  //e.stopPropagation();
+});
 
 //When we click on navLink the navLinks and Nav will triger the click event and this is the bubbling effect
