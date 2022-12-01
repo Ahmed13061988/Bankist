@@ -95,6 +95,7 @@ navLinks.addEventListener('click', function (e) {
 //Dom traversing
 
 const h1 = document.querySelector('h1');
+//Going downwards: child
 console.log(h1);
 
 /////////
