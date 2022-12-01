@@ -16,6 +16,7 @@ const logo = document.querySelector('.nav__logo');
 const navLink = document.querySelector('.nav__link');
 const navLinks = document.querySelector('.nav__links');
 const nav = document.querySelector('.nav');
+const link = document.querySelector('.nav__link--btn');
 
 const openModal = function (e) {
   e.preventDefault();
@@ -125,7 +126,6 @@ logo.alt = 'Beautiful minimalist logo';
 logo.setAttribute('company', 'Bankist');
 //console.log(logo.getAttribute('src'));
 
-const link = document.querySelector('.nav__link--btn');
 //console.log(link.getAttribute('href')); // this will get relative path
 //console.log(link.href); // this will bring absolute path
 
