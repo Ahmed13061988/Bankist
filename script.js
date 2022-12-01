@@ -94,6 +94,9 @@ navLinks.addEventListener('click', function (e) {
 
 //Dom traversing
 
+const h1 = document.querySelector('h1');
+console.log(h1);
+
 /////////
 // console.log(document.documentElement);
 // console.log(document.head);
@@ -162,15 +165,15 @@ logo.setAttribute('company', 'Bankist');
 //don't use, because it will overwrite whatever already there
 //logo.className = 'Ahmed';
 
-const h1 = document.querySelector('h1');
+// const h1 = document.querySelector('h1');
 
-const alertH1 = function (e) {
-  alert('addEventListenner: Your reading the heading');
-};
+// const alertH1 = function (e) {
+//   alert('addEventListenner: Your reading the heading');
+// };
 
-h1.addEventListener('mouseenter', alertH1); // Mouse hover
+// h1.addEventListener('mouseenter', alertH1); // Mouse hover
 
-setTimeout(() => h1.removeEventListener('mouseenter', alertH1), 3000);
+// setTimeout(() => h1.removeEventListener('mouseenter', alertH1), 3000);
 
 // h1.onmouseenter = function (e) {
 //   alert('addEventListenner: Your reading the heading');
