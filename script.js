@@ -44,9 +44,6 @@ document.addEventListener('keydown', function (e) {
 });
 
 //Page Navigation
-
-// console.log(allSections); // node list
-
 btnScrollTo.addEventListener('click', function (e) {
   e.preventDefault();
   const s1coords = section1.getBoundingClientRect(); // getting the location of the section
