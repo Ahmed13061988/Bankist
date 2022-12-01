@@ -34,6 +34,32 @@ document.addEventListener('keydown', function (e) {
 });
 
 //Page Navigation
+btnScrollTo.addEventListener('click', function (e) {
+  e.preventDefault();
+  const s1coords = section1.getBoundingClientRect(); // getting the location of the section
+  console.log(s1coords);
+  console.log(e.target.getBoundingClientRect());
+  console.log('Current scroll(X/Y)', window.pageXOffset, window.pageYOffset); // getting the scroll position
+  console.log(
+    'height/width viewpoint',
+    document.documentElement.clientHeight,
+    document.documentElement.clientWidth
+  );
+  //Scrolling
+  // window.scrollTo(
+  //   s1coords.left + window.pageXOffset,
+  //   s1coords.top + window.pageYOffset
+  // );
+
+  // window.scrollTo({
+  //   left: s1coords.left + window.pageXOffset,
+  //   top: s1coords.top + window.pageYOffset,
+  //   behavior: 'smooth',
+  // });
+
+  section1.scrollIntoView({ behavior: 'smooth' });
+});
+
 /////////
 // console.log(document.documentElement);
 // console.log(document.head);
@@ -114,32 +140,6 @@ const link = document.querySelector('.nav__link--btn');
 //logo.className = 'Ahmed';
 
 const btnScrollTo = document.querySelector('.btn--scroll-to');
-
-btnScrollTo.addEventListener('click', function (e) {
-  e.preventDefault();
-  const s1coords = section1.getBoundingClientRect(); // getting the location of the section
-  console.log(s1coords);
-  console.log(e.target.getBoundingClientRect());
-  console.log('Current scroll(X/Y)', window.pageXOffset, window.pageYOffset); // getting the scroll position
-  console.log(
-    'height/width viewpoint',
-    document.documentElement.clientHeight,
-    document.documentElement.clientWidth
-  );
-  //Scrolling
-  // window.scrollTo(
-  //   s1coords.left + window.pageXOffset,
-  //   s1coords.top + window.pageYOffset
-  // );
-
-  // window.scrollTo({
-  //   left: s1coords.left + window.pageXOffset,
-  //   top: s1coords.top + window.pageYOffset,
-  //   behavior: 'smooth',
-  // });
-
-  section1.scrollIntoView({ behavior: 'smooth' });
-});
 
 const h1 = document.querySelector('h1');
 
