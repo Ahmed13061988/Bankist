@@ -34,6 +34,17 @@ document.addEventListener('keydown', function (e) {
 });
 
 //Page Navigation
+const header = document.querySelector('.header');
+const allSections = document.querySelectorAll('.section'); // this will return node list
+
+// console.log(allSections); // node list
+
+const section1 = document.getElementById('section--1');
+// console.log(section1);
+
+const btnScrollTo = document.querySelector('.btn--scroll-to');
+
+const allButtons = document.getElementsByTagName('button');
 btnScrollTo.addEventListener('click', function (e) {
   e.preventDefault();
   const s1coords = section1.getBoundingClientRect(); // getting the location of the section
@@ -65,15 +76,7 @@ btnScrollTo.addEventListener('click', function (e) {
 // console.log(document.head);
 // console.log(document.body);
 
-const header = document.querySelector('.header');
-const allSections = document.querySelectorAll('.section'); // this will return node list
-
-// console.log(allSections); // node list
-
-const section1 = document.getElementById('section--1');
-// console.log(section1);
-
-const allButtons = document.getElementsByTagName('button'); // return html collection
+// return html collection
 // console.log(allButtons);
 
 //console.log(document.getElementsByClassName('btn')); // return html collection
@@ -138,8 +141,6 @@ const link = document.querySelector('.nav__link--btn');
 
 //don't use, because it will overwrite whatever already there
 //logo.className = 'Ahmed';
-
-const btnScrollTo = document.querySelector('.btn--scroll-to');
 
 const h1 = document.querySelector('h1');
 
