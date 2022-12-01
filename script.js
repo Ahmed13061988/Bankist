@@ -83,7 +83,10 @@ btnScrollTo.addEventListener('click', function (e) {
 // 1. Add eventListenner to a common parent element
 // 2. determine what element originated the event
 navLinks.addEventListener('click', function (e) {
-  console.log(e.target);
+  //Matcing strategy
+  if (e.target.classList.contains('nav__link')) {
+    console.log('Link');
+  }
 });
 
 /////////
