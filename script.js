@@ -84,7 +84,7 @@ btnScrollTo.addEventListener('click', function (e) {
 // 2. determine what element originated the event
 navLinks.addEventListener('click', function (e) {
   e.preventDefault();
-  //Matcing strategy
+  //Matcing strategy, to igone clicks that not happens on the links we need
   if (e.target.classList.contains('nav__link')) {
     const id = e.target.getAttribute('href');
     document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
