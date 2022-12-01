@@ -92,6 +92,8 @@ navLinks.addEventListener('click', function (e) {
   }
 });
 
+//Dom traversing
+
 /////////
 // console.log(document.documentElement);
 // console.log(document.head);
