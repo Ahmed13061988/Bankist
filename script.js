@@ -101,6 +101,11 @@ console.log(h1.childNodes);
 console.log(h1.children); // html collection
 h1.firstElementChild.style.color = 'white';
 h1.lastElementChild.style.color = 'orangered';
+
+//Going Upwards: parents
+console.log(h1.parentNode);
+console.log(h1.parentElement);
+h1.closest('.header').style.background = 'var(--gradient-secondary)';
 /////////
 // console.log(document.documentElement);
 // console.log(document.head);
