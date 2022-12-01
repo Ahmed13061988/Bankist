@@ -7,6 +7,9 @@ const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
 const btnCloseModal = document.querySelector('.btn--close-modal');
 const btnsOpenModal = document.querySelectorAll('.btn--show-modal');
+const section1 = document.getElementById('section--1');
+const btnScrollTo = document.querySelector('.btn--scroll-to');
+const allButtons = document.getElementsByTagName('button');
 
 const openModal = function (e) {
   e.preventDefault();
@@ -39,12 +42,6 @@ const allSections = document.querySelectorAll('.section'); // this will return n
 
 // console.log(allSections); // node list
 
-const section1 = document.getElementById('section--1');
-// console.log(section1);
-
-const btnScrollTo = document.querySelector('.btn--scroll-to');
-
-const allButtons = document.getElementsByTagName('button');
 btnScrollTo.addEventListener('click', function (e) {
   e.preventDefault();
   const s1coords = section1.getBoundingClientRect(); // getting the location of the section
