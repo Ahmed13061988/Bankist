@@ -12,6 +12,7 @@ const btnScrollTo = document.querySelector('.btn--scroll-to');
 const allButtons = document.getElementsByTagName('button');
 const header = document.querySelector('.header');
 const allSections = document.querySelectorAll('.section'); // this will return node list
+const logo = document.querySelector('.nav__logo');
 
 const openModal = function (e) {
   e.preventDefault();
@@ -112,8 +113,6 @@ message.style.height =
 //document.documentElement.style.setProperty('--color-primary', 'orangered');
 
 //Attributes
-
-const logo = document.querySelector('.nav__logo');
 
 logo.alt = 'Beautiful minimalist logo';
 //console.log(logo.src);
