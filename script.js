@@ -109,7 +109,7 @@ h1.closest('.header').style.background = 'var(--gradient-secondary)';
 h1.closest('h1').style.background = 'var(--gradient-secondary)';
 
 // Going sideways: siblings (previous and next one)
-console.log();
+console.log(h1.previousElementSibling);
 /////////
 // console.log(document.documentElement);
 // console.log(document.head);
