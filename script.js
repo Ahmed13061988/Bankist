@@ -112,6 +112,7 @@ h1.closest('h1').style.background = 'var(--gradient-secondary)';
 console.log(h1);
 console.log(h1.previousElementSibling);
 console.log(h1.nextElementSibling);
+console.log(h1.previousSibling);
 /////////
 // console.log(document.documentElement);
 // console.log(document.head);
