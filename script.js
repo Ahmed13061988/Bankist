@@ -238,3 +238,5 @@ const randomColor = () =>
 // });
 
 //When we click on navLink the navLinks and Nav will triger the click event and this is the bubbling effect
+
+// The DOM Manioulation is important to understand
