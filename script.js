@@ -115,6 +115,12 @@ console.log(h1.nextElementSibling);
 console.log(h1.previousSibling);
 console.log(h1.nextSibling);
 console.log(h1.parentElement.children);
+const children = [...h1.parentElement.children];
+children.forEach(el => {
+  if (el !== h1) {
+    el.style.transform = 'scale(0.5)';
+  }
+});
 /////////
 // console.log(document.documentElement);
 // console.log(document.head);
