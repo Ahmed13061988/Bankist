@@ -114,7 +114,7 @@ console.log(h1.previousElementSibling);
 console.log(h1.nextElementSibling);
 console.log(h1.previousSibling);
 console.log(h1.nextSibling);
-console.log(h1.parentElement);
+console.log(h1.parentElement.children);
 /////////
 // console.log(document.documentElement);
 // console.log(document.head);
